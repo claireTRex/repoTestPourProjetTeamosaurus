@@ -12,6 +12,7 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    .copy('ressources/image/god/otwell.jpg','public/image/god')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
