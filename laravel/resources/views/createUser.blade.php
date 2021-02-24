@@ -3,7 +3,6 @@
 
     @include('composant/flash')
 <form action="{{route('storeUser')}}" method="post">
-    @csrf
     <label for="">nom</label>
     <input type="text" name="name">
 
